@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width = device-width" />
+<link rel="icon" href="https://weblogin.stanford.edu/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://weblogin.stanford.edu/favicon.ico" type="image/x-icon" />
+<title>Stanford WebLogin</title>
+<script type="text/javascript">
+<!--
+function sf() { document.login.username.focus(); }
+// -->
+</script>
+<style type="text/css">
+/* base --------------------------------- */
+body {background: #f6f3e5; margin: 10px; color: #000; font-family: Arial, Verdana, Sans-serif;}
+img {border: 0px;}
+a {color:#039; text-decoration:underline;}
+a:link, a:visited {color:#039;}
+a:hover, a:active {color:#820000;}
+
+/* Horizontal Rule For Internet Explorer */
+hr {height: 1px; color: #bbb; border: none;}
+/* Horizontal Rule For Gecko-based browsers */
+html>body hr {height: 1px; background: #bbb; border: none;}
+/* Horizontal Rule For Opera and Gecko-based browsers */
+html>body hr {height: 1px; background: #bbb; border: 0px solid #999;}
+
+/* containers--------------------------------- */
+.error-box {border: 1px solid #820000; padding: 10px 5px 10px 5px; background: #fff; margin: 0px auto 10px auto; text-align: left; width: 60%; min-width: 270px; max-width: 600px;}
+.error-box p {padding: 0px 5px 0px 5px;}
+#bannercontainer {border-left: 1px solid #820000; border-right: 1px solid #820000; margin: 0px auto 0px auto; padding: 10px 0px 14px 10px; background-color: #820000; width: 60%; min-width: 270px; max-width: 600px; background: url(https://weblogin.stanford.edu/images/banner_bg.gif);}
+#container {border-right: 1px solid #820000; border-bottom: 1px solid #820000; border-left: 1px solid #820000; margin: 0px auto 0px auto; padding: 0px 5px 0px 5px; background-color: #fff; text-align: left; width: 60%; min-width: 270px;	max-width: 600px;}
+#content {padding: 20px 10px 10px 10px;}
+#answers_container  {width: 60%; min-width: 270px; max-width: 600px; margin: 20px auto 20px auto; text-align: justify; line-height: 1.3em;}
+#fineprint_container {padding: 0px; margin: 20px auto 0px auto; text-align: justify; width: 60%; min-width: 270px; max-width: 600px; color: #565347; font-size: 0.8em;}
+#copyright {padding: 0px; margin: 10px auto 20px auto; text-align: justify;	width: 60%; min-width: 270px; max-width: 600px;	color: #565347; text-align: center;	font-size: 0.8em;}
+#headercontainer {padding: 0px 10px 0px 10px; width: 60%; min-width: 270px; max-width: 600px; margin: 0px auto 0px auto; text-align: center; color: #565347;}
+#computerlogin {border: 1px solid #820000; padding: 10px; background: #fff; width: 60%; min-width: 270px; max-width: 600px; margin: 0px auto 0px auto; text-align: center;}
+
+/* Text--------------------------------- */
+p {margin: 0px 0px 1em 0px;}
+h1 {color: #820000; font-family: Times, Georgia, serif;	font-size: 2em;	font-weight: normal; margin: 0px 0px 0.5em 0px;}
+h2 {color: #820000; font-family: Times, Georgia, serif;	font-size: 1.5em; line-height: 1.3em; font-weight: normal; margin: 0.5em 0px 0.5em 0px;}
+ul {list-style-type: square;}
+ul.linebreak li {margin-bottom: 1em;}
+table th {padding: 5px; background-color: #c4bfa9; color: #3f3c30;}
+table td {padding: 5px; background-color: #eee6cb; border-right: 1px solid #c4bfa9; border-bottom: 1px solid #c4bfa9;}
+.last {margin-bottom: 0px; padding-bottom: 0px;}
+.help {margin: 0px;	font-family: Arial, Verdana, Sans-serif; font-size: 12px; white-space: nowrap;}
+.settings {border-top: 1px solid #ccc; padding: 1em 0px 0px 0px; margin: 0px; font-family: Arial, Verdana, Sans-serif; font-size: 0.8em;}
+
+/* Form Elements----------------------- */
+form {margin: 0px;}
+label {width: 6em; display: block; float: left; line-height: 1.2em;}
+input {margin-bottom: 5px;}
+input[type="submit"] {padding-left: 10px; padding-right: 10px;}
+
+/* iphone------------------------------ */
+@media only screen and (max-device-width: 480px) {.error-box, #bannercontainer, #container, #fineprint_container {width: auto;}}
+@media only screen and (max-width: 480px) {.error-box, #bannercontainer, #container, #fineprint_container {width: auto;}}
+</style>
+</head>
+
+<body onload="sf()">
+
+
+
+
+<div id="bannercontainer"><a href="http://www.stanford.edu"><img src="https://weblogin.stanford.edu/images/signature.gif" alt="Stanford University" /></a></div>
+
+<div id="container">
+  <div id="content">
+    <h1>WebLogin <span class="help"><a href="https://weblogin.stanford.edu/help.html" target="_blank"><img src="https://weblogin.stanford.edu/images/help20.png" alt="What is this?"></a></span></h1>
+    <form name="login" method="post" autocomplete="OFF" action="https://weblogin.stanford.edu/login" enctype="application/x-www-form-urlencoded">
+      <p>
+        <input type="hidden" name="RT" value="UyRBXLDKN/l8DD84GYxaalmw1Wb+Pz+5haIAiRqsGQxv+5JAmOQB6FTFsORcjeVavbYxxYdYrpGvOkuhi2VTliDDhKKF56O7oIL4fXdJHkF2U0pnhH5+sVyWWdUfgiLOf4axuuyNpVqeReiSYtG/ICXW8gVfwr19ef0Gnj/hXWNqSKvgS0ed0DYK2rXTZeJy1E2LN2MOcthAQwbksZwR9fFldzS1P9pB4my7tqNsmuWuVqDvQErXwoX3ZCGrIj+/c1esJbVyQR6x5P3W0atJhOd6eaI=" />
+        <input type="hidden" name="ST" value="UyP3UdiCsUYyG/LNXqO8+ZGDGjrSS/OE/rGEebOuBC9LdKRIttGo60djgBYDkD3fnQJXI8JNdZYjX8ZUa1hj+KKBQxOWEx7A9hQYkI9fkKz+4fROE2VJx0Vp4iNYNCRU73m/G4yN9R7z9Q6wfVcpVIbw9XTcTBa5XNp2a2zM02iS8l1Tw0R45cB+UBAFHiqeDeVilg==" />
+        <input type="hidden" name="login" value="yes" />
+        <label for="username">SUNet ID:</label>
+        <input id="username" name="username" type="text" size="12" maxlength="8" value="" />
+        <br />
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password" size="20" />
+        <br />
+        <label for="public_computer">&nbsp;</label>
+
+  
+        <input type="checkbox" name="remember_login" value="yes" checked="checked" />
+  
+
+I use this machine regularly <a href="https://weblogin.stanford.edu/help.html#remember" target="_blank"><img src="https://weblogin.stanford.edu/images/help14.png" alt="what is this?" title="When checked, WebLogin will store single sign-on and two-step credentials on this browser"></a>
+        <br />
+        <label for="submit">&nbsp;</label>
+        <input type="submit" name="Submit" value="Login" />
+      </p>
+    </form>
+	 
+
+		<div class="settings">
+	<p><a href="https://weblogin.stanford.edu/settings" target="settings" onclick="window.open('/settings', 'settings', 'location=0,toolbar=0,scrollbars=1,status=0,menubar=0,directories=0,resizable=1,width=700,height=600')">Advanced settings</a></p>
+    </div>
+  </div>
+</div>
+
+<div id="fineprint_container">
+  <p><strong>Important Security Information:</strong> With your login to WebAuth, gates to many different Stanford web sites have been unlocked for you, not just the web site you requested. In other words, many web sites that would ask you to login will not do so now that you have logged into WebAuth.</p>
+  <p><strong>Caution:</strong> Never enter your password on a web page unless that page&rsquo;s address bar points to weblogin.stanford.edu or unless you are establishing network connectivity.</p>
+  <p>Only authorized Stanford users are permitted to use and access this computer and the computer networks and systems of Stanford University. If you are not an authorized user, do not login to this system.  Users have no expectation of privacy while using this system and uses, data, and transmissions on this system may be intercepted, monitored, recorded, copied, audited, inspected, and disclosed at the discretion of Stanford University and subject to applicable laws.  You agree not to use this system for any illegal purpose or to make any unauthorized use of this system or another party&rsquo;s intellectual property. All use of this system is subject to Stanford University&rsquo;s rules and regulations, including without limitation the Stanford University Administrative Guide, which is available for your review at <a href="http://adminguide.stanford.edu" target="_blank" title="Stanford University Administrative Guide">adminguide.stanford.edu</a>.</p>
+</div>
+
+<div id="copyright">&copy; Stanford University. All Rights Reserved.</div>
+
+</body>
+</html>
